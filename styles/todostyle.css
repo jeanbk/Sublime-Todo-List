@@ -1,0 +1,76 @@
+html, body {
+	margin: 0;
+	padding: 0;
+	height:100%;
+	width: 100%;
+	
+
+}
+
+
+#containerTodo {
+	background-color: #1F1D20;
+	width: 500px;
+	height: 310px;
+	border: 1px solid black;
+	padding: 20px 20px 40px;
+	border-radius: 20px;
+	margin: 50px auto;
+	box-shadow: 0px 7px 10px 0px rgba(0,0,0,0.4);
+	font-family: 'Open Sans', sans-serif;
+	
+}
+
+h2 {
+	text-align: center;
+	color: white;
+	font-weight: 400px;
+
+}
+
+
+div#containerTodo button, div#containerTodo input {
+	margin-bottom: 20px;
+	height: 30px;
+	
+	border: 1px solid black;
+	border-radius: 5px;
+	box-shadow: 0px 0px 1px 1px black;
+	color: black;
+	
+	font: 20px bold;
+	background-color: #F7DCB4;
+	font-family: 'Open Sans', sans-serif;
+}
+
+div#containerTodo button {
+	text-align: center;
+
+}
+
+div#containerTodo input {
+	width: 100px;
+	height: 25px;
+
+}
+
+#list {
+	position: relative;
+	top: 1.9em;
+	left: 22px;
+}
+
+li {
+	background-color: #F7DCB4;
+	border: 1px solid black;
+
+	padding: 5px;
+	border-radius: 20px;
+	box-shadow: 0px 7px 10px 0px rgba(0,0,0,0.4);
+
+}
+ul,li {
+	font: 20px bold;
+	list-style-type: none;
+	font-family: 'Open Sans', sans-serif;
+}

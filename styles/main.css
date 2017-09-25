@@ -1,0 +1,234 @@
+html, body {
+	margin: 0;
+	padding: 0;
+	height:100%;
+	width: 100%;
+}
+
+div#container {
+	height: 100%;
+	width: 100%;
+	margin: auto;
+	background: url("../img/cup.jpg") no-repeat 50% 50%;
+	background-size: cover; 
+	font-family: courier, monospace;
+	-webkit-background-size: cover;
+	-moz-background-size:cover;
+	-o-background-size:cover;
+	display: table;
+	top: 0;
+}
+
+/* digital clock */
+
+#clock {
+	width: 200px;
+	height: 20px;
+	position: absolute;
+	right:1px;
+	/* top: 0; left: 0; bottom: 0; right: 0;*/
+	padding: 20px;
+	font-family: courier, monospace;
+	text-align:center;
+	color: white;
+	font-size: 25px; 	 
+}
+
+
+div.clock {
+	box-shadow: 0 0 0 .2em #323232;
+	border-radius: .8em;
+	padding: 1em;
+	margin: 1em;
+	background: #f44336;
+}
+
+
+/* end of digital clock */
+
+
+/* clockStuff */
+form#clockStuff {
+	position: absolute;
+	color: white;	
+}
+
+form#clockStuff button {
+	background: #f44336;
+	color: white;
+	border-radius: .8em;
+	box-shadow: 0 0 0 .2em #323232; 
+	outline: none;
+}
+
+/* end of clockStuff */
+
+h1 {
+	color: white;
+	font-weight: bold;
+	font-size: 3em;
+	text-shadow: 2px 4px 5px black;
+	text-align: center;
+}
+ form {
+ 	margin-top: 15px;
+ }
+
+#backgroundTitle {
+	text-align: center;
+	font-family: 'Open Sans', sans-serif;
+	color: #f44336;
+	text-shadow: 2px 4px 5px black;
+}
+
+/* vertical bar */
+ .one-third-port {
+ 	width: 29.333333%;
+ 	padding: 2%;
+ 	float: left;
+ }
+
+
+#calculator {
+	background-color: #323232;
+	width: 250px;
+	height: 330px;
+	border: 1px solid black;
+	padding: 20px;
+	border-radius: 20px;
+	margin: 50px auto;
+	box-shadow: 0px 7px 10px 0px rgba(0,0,0,0.4);
+	text-align: center;
+	display: table;
+}
+
+
+
+#display {
+	margin-bottom: 20px;
+	height: 30px;
+	width: 12em;
+	border: 1px solid black;
+	border-radius: 5px;
+	box-shadow: 0px 0px 1px 1px black;
+	color: black;
+	text-align: right;
+	font: 20px bold;
+	background-color: #f44336;
+
+}
+
+.keys {
+	width: 41px;
+	height: 35px;
+	margin: 4px;
+	color: black;
+	font-size: 16px;
+	border-radius: 2px;
+	outline: none;
+	cursor: pointer;
+	
+}
+input {
+	background-color: #F7DCB4;
+	
+}
+
+#equal {
+	width: 100px;
+	height: 35px;
+	margin-right: 15px;
+	margin-left: 1px;
+	font-size: 16px;
+	box-shadow: 0px 0px 2px 1px black;
+	border-radius: 2px;
+	outline: none;
+	background-color: #ff6600;
+}
+
+
+#background_wrapper {	
+	width: 650px;
+	
+	margin: 2px auto;
+
+
+	
+}
+
+
+.background {
+	
+	padding-right: 2px;
+	padding-bottom: -3em;
+	border: 3px solid #323232;
+	border-radius: 3px;
+	float: left;
+	box-shadow: 0px 7px 10px 0px rgba(0,0,0,0.4);
+}
+
+#background_wrapper .background:hover img {
+	opacity: .5;
+
+}
+
+/* Media queries */
+
+@media screen and (max-width: 786px) {
+
+	html, body {
+	margin: 0;
+	padding: 0;
+	height:100%;
+	width: 100%;
+    } 
+
+	#clock {
+	width: 200px;
+	height: 20px;
+	position: absolute;
+
+	right: -15px;
+	margin-top: 80px;
+	padding: 15px;
+	font-size: 20px; 	 
+    }
+
+    #backgroundTitle, #background_wrapper {
+ 		display: none;
+ 	}
+
+    .one-third-port {
+ 		width: 96%;
+ 		margin: 0 auto;
+ 		padding: 0;
+ 	}
+
+    
+
+}
+
+ @media screen and (max-width: 320px) {
+
+ 	html, body {
+	margin: 0;
+	padding: 0;
+	height:100%;
+	width: 100%;
+    } 
+
+    .container {
+	width: 100%;
+	margin: 0 auto;
+   }
+
+
+ 	h1,#calculator,  #clock, #background_wrapper {
+ 		display: none;
+ 	}
+ 
+
+
+}
+
+
